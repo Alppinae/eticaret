@@ -1,0 +1,128 @@
+/* Navbar */
+nav {
+    width: 1110px;
+    height: 50px;
+    margin: 28px auto 0;
+}
+
+.nav-text {
+    width: 591px;
+    height: 26px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+#sneakers {
+    font-size: 44px;
+    text-decoration: none;
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    margin-left: 365px;
+}
+
+.container-title-text {
+    gap: 32px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #69707D;
+    padding-top: 5px;
+}
+
+.container-title-text p:hover {
+    color: #1D2026;
+    cursor: pointer;
+    box-shadow: 0px 20px 50px -20px #e20202;
+}
+
+/* Main Content */
+.container {
+    margin: 100px auto 0;
+    text-align: center;
+    width: 1110px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pages {
+    display: block;
+    box-shadow: 9px 10px 20px 0px #e00202;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.pages:hover {
+    transform: scale(1.05);
+}
+
+.pages img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pages h2, .pages p, .pages span {
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    margin: 10px 0;
+}
+
+.pages h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pages p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pages span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#brand {
+    color: #f51d00;
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f80101;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-1:hover {
+    background-color: #e20202;
+}

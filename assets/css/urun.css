@@ -1,0 +1,323 @@
+/* Navbar */
+nav {
+    width: 1110px;
+    height: 50px;
+    margin: 28px auto 0;
+}
+
+.nav-text {
+    width: 591px;
+    height: 26px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+#sneakers {
+    font-size: 44px;
+    text-decoration: none;
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    margin-left: 365px;
+    cursor: pointer;
+}
+
+.container-title-text {
+    gap: 32px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #69707D;
+    padding-top: 5px;
+}
+
+.container-title-text p:hover {
+    color: #1D2026;
+    cursor: pointer;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+}
+
+/* Group 11 */
+.group-11 {
+    width: 1115px;
+    height: 565px;
+    margin-top: 90px;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.group-11-1 {
+    width: 445px;
+    height: 565px;
+    margin-right: 125px;
+    overflow: hidden;
+}
+
+.group-11-1 img {
+    border-radius: 15px 30px 15px 15px;
+    margin: 35px 0 0 35px;
+}
+
+.group-11-2 {
+    width: 445px;
+    height: 426px;
+    margin-top: 62px;
+}
+
+.group-11-2 .p-1 {
+    color: #cc5805;
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.group-11-2 .p-2 {
+    color: #69707D;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+/* Group 9 */
+.group-9 {
+    margin-top: 32px;
+    gap: 31px;
+    width: 445px;
+    height: 83px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.group-9-img, .group-9-img img {
+    width: 88px;
+    height: 83px;
+    border-radius: 10px;
+}
+
+/* Discounts
+.indirim {
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    bottom: 37px;
+    right: 55px;
+    border-radius: 6px;
+    background: #FFEEE2;
+    text-align: center;
+    color: #be0505c9;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+} */
+
+/* Buttons */
+.btn-3 button {
+    width: 272px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #e02108;
+    border: none;
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-3 button:active {
+    background: #dd0505;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+}
+
+/* Cart */
+.sepet-adet {
+    display: flex;
+    align-items: center;
+}
+
+.sepet-buton, .sepet-girdi {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #F6F8FD;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.sepet-girdi {
+    width: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sepet-buton:hover {
+    background-color: #e0e0e0;
+}
+
+.sepet-buton:active {
+    background-color: #d9d9d9;
+}
+
+/* Sidebar */
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3b3a3a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+/* Plus Item
+.plus-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #3b0101;
+    border-radius: 5px;
+    background-color: #e9e2dd;
+    box-shadow: 9px 10px 20px 0px #c40202;
+} */
+
+/* .plus-item img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+} */
+
+/* .plus-item p {
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+} */
+/* Discounts */
+.indirim {
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    bottom: 37px;
+    right: 55px;
+    border-radius: 6px;
+    background: #FFEEE2;
+    text-align: center;
+    color: #be0505c9;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 1; /* Ön planda göstermek için */
+    line-height: 27px; /* Dikey hizalama için */
+    border: 1px solid #cc5805; /* Kenarlık ekledik */
+}
+
+/* Discounted Price */
+.p-4 {
+    color: #B6BCC8;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration-line: line-through; /* Çizgi ekledik */
+    width: 63px;
+    margin-top: 5px; /* Aralığı ayarladık */
+    display: inline-block; /* Aynı satırda göstermek için */
+}
+
+/* Original Price */
+.p-3 {
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px; /* Aralığı ayarladık */
+    width: 106px;
+    display: inline-block; /* Aynı satırda göstermek için */
+}
+
+/* Plus Item */
+.plus-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0; /* Boşluk ayarladık */
+    padding: 15px;
+    border: 1px solid #ccc; /* Hafif kenarlık ekledik */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Arka plan rengini açık yaptık */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Hafif gölge ekledik */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Dönüşüm ve gölge için animasyon ekledik */
+}
+
+.plus-item:hover {
+    transform: translateY(-5px); /* Hafif yukarı kaldırma efekti */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Gölgelendirme artırma */
+}
+
+.plus-item img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: cover; /* Resim boyutlandırma */
+}
+
+.plus-item p {
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0; /* Aralığı ayarladık */
+    width: 100%;
+    text-align: center; /* Metni ortala */
+}
